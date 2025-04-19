@@ -1,0 +1,160 @@
+/* Define que toda a página ocupa 100% da altura da tela e centraliza o conteúdo */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container principal */
+.pagina-container {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Cabeçalho com logo e botão de voltar */
+.cabecalho {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.botao-voltar {
+  position: absolute;
+  left: 0;
+  font-size: 24px;
+  cursor: pointer;
+  color: #002b41;
+}
+
+.logo {
+  height: 70px;
+}
+
+/* Formulário de compra */
+.formulario-compra {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Linha com dois campos */
+.linha-formulario {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+/* Campos padrão */
+.campo-formulario {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.campo-formulario label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.campo-formulario input,
+.campo-formulario select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Campos pequenos como CEP e UF */
+.pequeno {
+  max-width: 100px;
+}
+
+/* Campo que ocupa toda a linha */
+.completo {
+  width: 100%;
+}
+
+/* Seção de método de pagamento */
+.metodo-pagamento {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+/* Resumo da compra */
+.resumo-compra {
+  border-top: 1px solid #ccc;
+  padding-top: 15px;
+  margin-top: 20px;
+}
+
+.item-compra {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.item-compra img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.info-item p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.info-item span {
+  display: block;
+  font-size: 14px;
+}
+
+.info-item small {
+  color: green;
+  font-size: 12px;
+}
+
+/* Total da compra */
+.total-compra {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #ccc;
+}
+
+/* Botão de finalizar */
+.botao-finalizar {
+  margin-top: 25px;
+  background-color: #00cfff;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.botao-finalizar:hover {
+  background-color: #00b5e0;
+}
+
+/* Texto de segurança */
+.texto-seguro {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 12px;
+  color: #888;
+}
