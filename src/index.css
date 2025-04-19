@@ -71,10 +71,11 @@ button:focus-visible {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Joan', 'Arial', sans-serif;
   background-color: #f0f0f0;
   color: #333;
 }

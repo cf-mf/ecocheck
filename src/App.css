@@ -45,6 +45,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Joan&family=Kavoon&display=swap');
 
+/* Estilos do Header */
 .header {
   background: white;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -70,6 +71,7 @@
   gap: 1rem;
   font-family: 'Kavoon';
   color: #0A2B3E;
+  font-size: 1.5rem;
 }
 
 .header-logo img {
@@ -102,6 +104,128 @@
   border-radius: 10px;
   color: white;
 }
+
+.nav .button:hover{
+  background-color: #627D1B;
+  color: white;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Estilos da Home */
+.banner-homepage {
+  width: 100%;
+  height: 68vh;
+  background: linear-gradient(135deg, #0A2B3E, #1A72A4);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2.5rem;
+  font-size: 1.8em;
+  text-decoration: none;
+}
+
+.banner-homepage span {
+  font-family: 'Kavoon';
+}
+
+.banner-homepage button {
+  padding: 1rem 3rem;
+  font-size: 1.4rem;
+  border-radius: 10px;
+  color: #1382A8;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.banner-homepage button:hover{
+  background-color: #627D1B;
+  color: white;
+}
+
+.about-homepage {
+  width: 100%;
+  height: auto;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.4rem;
+  padding: 3rem 10rem;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.about-homepage h2 {
+  color: #1382A8;
+  font-family: 'Kavoon';
+  margin-top: 1rem;
+}
+
+.about-homepage p {
+  margin-left: 2rem;
+}
+
+.plans-section {
+  text-align: center;
+  padding: 3.4rem 2rem;
+  background-color: #0A2B3E;
+}
+
+.plans-section h2 {
+  font-family: 'Kavoon';
+  color: white;
+  font-weight: 100;
+  font-size: 2rem;
+  margin-bottom: 3.6rem;
+}
+
+.plans-container {
+  display: flex;
+  gap: 2.9rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.plan-card {
+  background: white;
+  border-radius: 40px;
+  padding: 2rem;
+  width: 300px;
+}
+
+.plan-card h3 {
+  font-size: 1.6rem;
+}
+
+.plan-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 1.6rem 0.9rem;
+}
+
+.plan-card li {
+  margin-bottom: 0.8rem;
+  text-align: left;
+}
+
+.plan-card button {
+  background-color: #1B1B1B;
+  color: white;
+  font-size: 0.9rem;
+  border: none;
+  padding: 0.8rem 1.3rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.plan-card button:hover {
+  background-color: black;
+}
+
 
 
 @media (max-width: 768px) {
