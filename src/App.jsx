@@ -16,6 +16,7 @@ function App() {
         <Route element={<DefaultLayout />}>
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
+
         </Route>
         <Route path="/cadastro" element={<Cadastro />} />
         <Route element={<AuthLayout />}>
