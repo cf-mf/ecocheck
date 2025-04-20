@@ -46,6 +46,7 @@ const data = {
 
 const options = {
   responsive: true,
+  maintainAspectRatio: false, // <--- ESSENCIAL pra responsividade
   plugins: {
     title: {
       display: true,
@@ -74,15 +75,23 @@ const options = {
   }
 };
 
-
 export function Dashboard() {
-    return (
-        <section className="page">
-            <div style={{ width: '80%', margin: '4rem auto', padding: '50px', borderRadius: '10px', background: 'white' }}>
-                <Line data={data} options={options} />
-            </div>
-        </section>
-    )
+  return (
+    <section className="page" style={{ padding: '2rem 1rem' }}>
+      <div style={{
+        width: '100%',
+        maxWidth: '900px',
+        margin: '0 auto',
+        padding: '1rem',
+        borderRadius: '10px',
+        background: 'white',
+        boxShadow: '0 0 10px rgba(0,0,0,0.05)',
+        height: '400px', // altura controlada, adaptável ao conteúdo
+      }}>
+        <Line data={data} options={options} />
+      </div>
+    </section>
+  );
 }
 
-export default Dashboard();
+export default Dashboard;

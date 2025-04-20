@@ -1,3 +1,5 @@
+import { HashLink } from 'react-router-hash-link';
+
 function PlanCard({ title, features }) {
     return (
       <div className="plan-card">
@@ -7,7 +9,7 @@ function PlanCard({ title, features }) {
             <li key={index}>✓ {item}</li>
           ))}
         </ul>
-        <button>Peça um orçamento</button>
+        <button><HashLink to="/cadastro" style={{all:'unset'}}>Peça um orçamento</HashLink></button>
       </div>
     );
   }

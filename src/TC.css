@@ -1,5 +1,5 @@
 /* Define que toda a página ocupa 100% da altura da tela e centraliza o conteúdo */
-body, html {
+.cadastro-page {
   margin: 0;
   padding: 0;
   font-family: 'Segoe UI', sans-serif;
@@ -15,15 +15,17 @@ body, html {
   max-width: 500px;
   padding: 20px;
   box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
 }
 
 /* Cabeçalho com logo e botão de voltar */
-.cabecalho {
+.cabecalho-cadastro {
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
   margin-bottom: 30px;
+  box-shadow: none;
 }
 
 .botao-voltar {

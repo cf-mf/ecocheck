@@ -1,12 +1,6 @@
 /* Reset e configurações básicas */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-html, body {
-  height: 100%;
+.pagina-login {
   font-family: 'Comic Sans MS', cursive, sans-serif;
 }
 

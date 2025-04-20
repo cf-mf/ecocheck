@@ -15,9 +15,8 @@ function App() {
       <Routes>
         <Route element={<DefaultLayout />}>
           <Route path="/" element={<Home />} />
-          <Route path="/login" element={<Login />} />
-
         </Route>
+        <Route path="/login" element={<Login />} />
         <Route path="/cadastro" element={<Cadastro />} />
         <Route element={<AuthLayout />}>
           <Route path="/dashboard" element={<Dashboard />} />

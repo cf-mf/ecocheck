@@ -74,6 +74,10 @@ button:focus-visible {
   scroll-behavior: smooth;
 }
 
+html, body {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Joan', 'Arial', sans-serif;
   background-color: #f0f0f0;
