@@ -41,6 +41,7 @@ npm install
 # Inicie o servidor de desenvolvimento
 npm run dev
 ```
+---
 
 📌 Status do Projeto
  
@@ -55,6 +56,7 @@ npm run dev
  ● Alertas de consumo excessivo
 
  ● Histórico detalhado de uso
+
 
 ---
 Feito com dedicação por estudantes da Universidade São Judas Tadeu! 🌱
