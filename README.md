@@ -43,6 +43,7 @@ npm run dev
 ```
 
 📌 Status do Projeto
+ 
  ✅Página inicial
 
  ✅Dashboard com gráficos de consumo
@@ -55,5 +56,5 @@ npm run dev
 
  ● Histórico detalhado de uso
 
-
-Feito com dedicação por estudantes da Universidade São Judas Tadeu.
+---
+Feito com dedicação por estudantes da Universidade São Judas Tadeu! 🌱
