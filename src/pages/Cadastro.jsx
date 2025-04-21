@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import '../TC.css';
 import logo from '../assets/logo.png';
 
@@ -13,7 +14,7 @@ export function Cadastro() {
         <div className="pagina-container">
             {/* Cabeçalho com botão de voltar e logo */}
             <header className="cabecalho-cadastro">
-                <a className="botao-voltar" href="/" style={{textDecoration: "none"}}>←</a>
+                <Link to="/" className="botao-voltar" style={{textDecoration: "none"}}>←</Link>
                 <img src={logo} alt="EcoCheck Logo" className="logo" />
             </header>
 
@@ -70,7 +71,7 @@ export function Cadastro() {
                     <input type="text" required />
                 </div>
                 <div className="campo-formulario">
-                    <label>Complemento *</label>
+                    <label>Complemento</label>
                     <input type="text" required />
                 </div>
                 </div>
