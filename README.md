@@ -4,6 +4,7 @@
 
 > 💡 Projeto em desenvolvimento — feedbacks são bem-vindos!
 
+
 ## 🔍 Sobre o Projeto
 
 O EcoCheck foi criado com o objetivo de conscientizar usuários sobre seu consumo de recursos naturais, promovendo hábitos mais sustentáveis e econômicos. Com base nas informações captadas, o sistema exibe gráficos e métricas que facilitam o acompanhamento diário do uso de água e energia.
@@ -30,7 +31,7 @@ Este projeto foi desenvolvido como parte de uma iniciativa educacional por estud
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/ecocheck.git
+git clone https://github.com/cf-mf/ecocheck.git
 
 # Acesse o diretório do projeto
 cd ecocheck
