@@ -1,4 +1,4 @@
-// components/Header/Header.jsx
+// src/components/Header/Header.jsx
 
 import './Header.css';
 import logo from '../../assets/logo.png';

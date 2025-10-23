@@ -7,6 +7,7 @@ import { Dashboard } from './pages/Dashboard/Dashboard';
 import { Home } from './pages/Home/Home';
 import { Login } from './pages/Login/Login';
 import { Cadastro } from './pages/Cadastro/Cadastro';
+import WhatsAppButton from './components/WhatsAppButton/WhatsAppButton';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
           <Route path="/dashboard" element={<Dashboard />} />
         </Route>
       </Routes>
+      <WhatsAppButton/>
     </>
   );
 }

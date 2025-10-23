@@ -1,4 +1,4 @@
-// components/PlansSection/PlansSection.jsx
+// src/components/PlansSection/PlansSection.jsx
 
 import './PlansSection.css';
 import PlanCard from "../PlanCard/PlanCard";

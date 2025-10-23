@@ -1,4 +1,4 @@
-// pages/Cadastro/Cadastro.jsx
+// src/pages/Cadastro/Cadastro.jsx
 
 import { Link } from 'react-router-dom';
 import './Cadastro.css';

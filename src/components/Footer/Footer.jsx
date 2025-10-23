@@ -1,4 +1,4 @@
-// components/Footer/Footer.jsx
+// src/components/Footer/Footer.jsx
 
 import './Footer.css';
 import { HashLink } from 'react-router-hash-link';

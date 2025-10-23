@@ -1,4 +1,4 @@
-// layouts/AuthLayout.jsx
+// src/layouts/AuthLayout.jsx
 
 import AuthHeader from '../components/Header/Header.jsx';
 import { Outlet } from 'react-router-dom';

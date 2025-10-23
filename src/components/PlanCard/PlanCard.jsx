@@ -1,4 +1,4 @@
-// components/PlanCard/PlanCard.jsx
+// src/components/PlanCard/PlanCard.jsx
 
 import './PlanCard.css';
 import { HashLink } from 'react-router-hash-link';

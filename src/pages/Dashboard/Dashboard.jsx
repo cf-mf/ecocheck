@@ -1,4 +1,4 @@
-// pages/Dashboard/Dashboard.jsx
+// src/pages/Dashboard/Dashboard.jsx
 
 import './Dashboard.css';
 import { Line } from 'react-chartjs-2';

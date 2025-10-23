@@ -1,4 +1,4 @@
-// pages/Home/Home.jsx
+// src/pages/Home/Home.jsx
 
 import "./Home.css";
 import { HashLink } from "react-router-hash-link";
