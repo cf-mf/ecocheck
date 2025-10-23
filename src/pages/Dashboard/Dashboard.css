@@ -1,0 +1,22 @@
+.graph-dashboard {
+  background: white;
+}
+
+/* Recomendação: Mova os estilos inline do Dashboard.jsx para cá!
+  Ficaria assim:
+*/
+
+.dashboard-page {
+  padding: 2rem 1rem;
+}
+
+.chart-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  height: 400px; 
+}
