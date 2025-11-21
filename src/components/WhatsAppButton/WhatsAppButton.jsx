@@ -1,6 +1,7 @@
 // src/components/WhatsAppButton/WhatsAppButton.jsx
 
 import "./WhatsAppButton.css";
+import whatsappIcon from '../../assets/whatsapp.png';
 
 export default function WhatsAppButton() {
   const phone = "5511912345678";
@@ -16,7 +17,7 @@ export default function WhatsAppButton() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img src="src\assets\whatsapp.png" alt="WhatsApp" />
+        <img src={whatsappIcon} alt="WhatsApp" />
         <span className="tooltip">Fale conosco pelo WhatsApp</span>
       </a>
     </>
