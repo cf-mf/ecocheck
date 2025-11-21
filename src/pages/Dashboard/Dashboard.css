@@ -1,22 +1,88 @@
-.graph-dashboard {
-  background: white;
-}
-
-/* Recomendação: Mova os estilos inline do Dashboard.jsx para cá!
-  Ficaria assim:
-*/
-
 .dashboard-page {
   padding: 2rem 1rem;
+  background: #f6f8f9;
+  min-height: 100vh;
+  font-family: 'Joan', sans-serif;
 }
 
+/* Cards de resumo */
+.dashboard-cards {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background: white;
+  padding: 1.5rem 1.8rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  text-align: center;
+  min-width: 180px;
+  flex: 1;
+  max-width: 220px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.08);
+}
+
+.card h3 {
+  font-family: 'Kavoon', sans-serif;
+  color: #1382A8;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  font-size: 1.3rem;
+  color: #2f2f2f;
+  font-weight: 600;
+}
+
+/* Gráfico */
 .chart-container {
   width: 100%;
   max-width: 900px;
   margin: 0 auto;
   padding: 1rem;
-  border-radius: 10px;
+  border-radius: 12px;
   background: white;
-  box-shadow: 0 0 10px rgba(0,0,0,0.05);
-  height: 400px; 
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  height: 400px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .chart-container {
+    height: 300px;
+  }
+
+  .dashboard-cards {
+    gap: 1rem;
+  }
+
+  .card {
+    min-width: 140px;
+    max-width: 180px;
+    padding: 1rem 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .chart-container {
+    height: 250px;
+  }
+
+  .card h3 {
+    font-size: 1rem;
+  }
+
+  .card p {
+    font-size: 1.1rem;
+  }
 }

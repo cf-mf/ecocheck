@@ -1,25 +1,26 @@
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import './Login.css';
 import logo from '../../assets/logo.png';
 import { useState } from 'react';
 
 export function Login() {
   const [loading, setLoading] = useState(false);
+  const navigate = useNavigate(); // Hook do React Router para navegação programática
 
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
 
     setTimeout(() => {
-      console.log("Login enviado!");
       setLoading(false);
-    }, 1200);
+      navigate('/dashboard'); // Navega para o dashboard mesmo sem login real
+    }, 800); // simula carregamento
   };
 
   return (
     <section className='pagina-login'>
       
-      {/* Cabeçalho original, mantido sem alterações */}
+      {/* Cabeçalho original */}
       <header className="cabecalho">
         <div className="logo-container">
           <img src={logo} alt="EcoCheck Logo" className="logo-imagem" />
@@ -35,7 +36,7 @@ export function Login() {
         </nav>
       </header>
 
-      {/* Área principal modernizada */}
+      {/* Área principal */}
       <main className="login-main">
         <div className="login-card">
           <h2 className="login-title">Entrar</h2>
