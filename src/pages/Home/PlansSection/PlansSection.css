@@ -1,0 +1,19 @@
+.plans-section {
+  text-align: center;
+  padding: 4.5rem 2rem;
+  background: white;
+}
+
+.plans-section h2 {
+  font-family: 'Kavoon';
+  color: #1382A8;
+  font-size: 2.3rem;
+  margin-bottom: 3rem;
+}
+
+.plans-container {
+  display: flex;
+  gap: 2.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}

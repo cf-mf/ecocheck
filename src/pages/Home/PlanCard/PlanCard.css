@@ -1,0 +1,95 @@
+.plan-card {
+  background: white;
+  border-radius: 22px;
+  padding: 2rem;
+  width: 300px;
+  border: 2px solid rgba(19, 130, 168, 0.1); /* borda sutil azul */
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.plan-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 26px rgba(0,0,0,0.08);
+}
+
+.plan-card h3 {
+  font-size: 1.6rem;
+  color: #1382A8;
+  font-family: 'Kavoon';
+  margin-bottom: 1rem;
+}
+
+.plan-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 1.6rem 0.9rem;
+  font-family: 'Joan';
+}
+
+.plan-card li {
+  margin-bottom: 0.8rem;
+  text-align: left;
+  color: #333;
+}
+
+/* --------- Botão -------- */
+.plan-card button {
+  background-color: #1382A8;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  padding: 0.9rem 1.4rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  width: 100%;
+  font-family: 'Joan';
+}
+
+.plan-card button:hover {
+  background-color: #0f6c8a;
+}
+
+/* --- Responsividade --- */
+@media (max-width: 768px) {
+  .plan-card {
+    width: 90%;
+  }
+}
+
+@media (max-width: 360px) {
+  .plan-card {
+    padding: 1.5rem;
+    max-width: 95%;
+  }
+
+  .plan-card h3 {
+    font-size: 1.35rem;
+  }
+
+  .plan-card button {
+    font-size: 0.95rem;
+    padding: 0.75rem 1rem;
+  }
+}
+
+@media (max-width: 334px) {
+  .plan-card {
+    padding: 1.2rem;
+    border-radius: 18px;
+  }
+
+  .plan-card h3 {
+    font-size: 1.25rem;
+  }
+
+  .plan-card li {
+    font-size: 0.9rem;
+  }
+
+  .plan-card button {
+    font-size: 0.85rem;
+    padding: 0.7rem;
+  }
+}

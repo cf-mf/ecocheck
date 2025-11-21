@@ -1,4 +1,4 @@
-// src/components/PlansSection/PlansSection.jsx
+// src/pages/Home/PlansSection/PlansSection.jsx
 
 import './PlansSection.css';
 import PlanCard from "../PlanCard/PlanCard";
@@ -24,7 +24,7 @@ function PlansSection() {
             "Monitoração em tempo real",
             "Acesso com dados diários",
             "Histórico de 3 meses",
-            "Até 3 dispositivos conectados",
+            "Até 3 dispositivos",
           ]}
         />
 
@@ -32,9 +32,9 @@ function PlansSection() {
           title="EcoHerói"
           features={[
             "Dashboards personalizados",
-            "API dedicada",
-            "Histórico ilimitado",
-            "Dispositivos ilimitados",
+            "Relatórios avançados",
+            "Histórico de 1 ano",
+            "Até 12 dispositivos",
           ]}
         />
       </div>
