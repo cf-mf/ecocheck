@@ -1,0 +1,79 @@
+/* Estilos do Footer */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: #0A2B3E;
+  font-family: 'Kavoon';
+  padding: 5rem;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.footer-left,
+.footer-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.logo {
+  font-size: 2.8rem;
+  margin-bottom: 2rem;
+}
+
+.top-button {
+  background-color: #1382A8;
+  color: white;
+  padding: 15px 25px;
+  border: none;
+  text-decoration: none;
+  border-radius: 15px;
+  transition: background 0.3s;
+  font-size: 1.8rem;
+  font-family: 'Joan';
+}
+
+.top-button:hover {
+  background-color: #0066cc;
+}
+
+.footer-right strong {
+  font-size: 2rem;
+}
+
+.footer-right {
+  font-size: 1.3rem;
+}
+
+.footer-right a {
+  color: #004080;
+  text-decoration: underline;
+}
+
+.footer-right a:hover {
+  color: #0066cc;
+}
+
+/* --- Responsividade do Footer --- */
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    gap: 3rem;
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+
+  .footer-left,
+  .footer-right {
+    width: 100%;
+  }
+
+  .top-button {
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+  }
+}

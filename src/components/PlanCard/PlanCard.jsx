@@ -1,3 +1,6 @@
+// src/components/PlanCard/PlanCard.jsx
+
+import './PlanCard.css';
 import { HashLink } from 'react-router-hash-link';
 
 function PlanCard({ title, features }) {
@@ -9,7 +12,7 @@ function PlanCard({ title, features }) {
             <li key={index}>✓ {item}</li>
           ))}
         </ul>
-        <button><HashLink to="/cadastro" style={{all:'unset'}}>Peça um orçamento</HashLink></button>
+        <HashLink to="/cadastro" style={{all:'unset'}}><button>Peça um orçamento</button></HashLink>
       </div>
     );
   }

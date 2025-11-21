@@ -1,12 +1,63 @@
-# React + Vite
+# 🌱 EcoCheck
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**EcoCheck** é uma solução simples e intuitiva para ajudar consumidores a monitorar o uso de água e energia em tempo real. Através de um dispositivo físico que coleta os dados de consumo, o sistema os apresenta em um painel visual claro e acessível.
 
-Currently, two official plugins are available:
+> 💡 Projeto em desenvolvimento — feedbacks são bem-vindos!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## 🔍 Sobre o Projeto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+O EcoCheck foi criado com o objetivo de conscientizar usuários sobre seu consumo de recursos naturais, promovendo hábitos mais sustentáveis e econômicos. Com base nas informações captadas, o sistema exibe gráficos e métricas que facilitam o acompanhamento diário do uso de água e energia.
+
+Este projeto foi desenvolvido como parte de uma iniciativa educacional por estudantes da Universidade São Judas Tadeu.
+
+### 🖼️ Acesse a versão atual:
+👉 [EcoCheck no GitHub Pages](https://cf-mf.github.io/ecocheck/)
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- [React](https://reactjs.org/) com [Vite](https://vitejs.dev/) — interface rápida e moderna
+- [Node.js](https://nodejs.org/) — backend leve e escalável
+- [Chart.js](https://www.chartjs.org/) — visualização de dados
+- [GitHub Pages](https://pages.github.com/) — deploy gratuito e fácil
+
+---
+
+## 📦 Como Rodar Localmente
+
+> Certifique-se de ter o **Node.js** e o **npm** instalados.
+
+```bash
+# Clone o repositório
+git clone https://github.com/cf-mf/ecocheck.git
+
+# Acesse o diretório do projeto
+cd ecocheck
+
+# Instale as dependências
+npm install
+
+# Inicie o servidor de desenvolvimento
+npm run dev
+```
+---
+
+📌 Status do Projeto
+ 
+ ✅Página inicial
+
+ ✅Dashboard com gráficos de consumo
+
+ ✅Login e cadastro
+
+ ● Integração com hardware
+
+ ● Alertas de consumo excessivo
+
+ ● Histórico detalhado de uso
+
+
+---
+Feito com dedicação por estudantes da Universidade São Judas Tadeu! 🌱

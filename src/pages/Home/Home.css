@@ -1,0 +1,84 @@
+/* Estilos da Home */
+.banner-homepage {
+  width: 100%;
+  height: 68vh;
+  background: linear-gradient(135deg, #0A2B3E, #1A72A4);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2.5rem;
+  font-size: 1.8em;
+  text-decoration: none;
+  text-align: center;
+}
+
+.banner-homepage span {
+  font-family: 'Kavoon';
+}
+
+.banner-homepage button {
+  padding: 1rem 3rem;
+  font-size: 1.4rem;
+  border-radius: 10px;
+  color: #1382A8;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.banner-homepage button:hover{
+  background-color: #627D1B;
+  color: white;
+}
+
+.about-homepage {
+  width: 100%;
+  height: auto;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.4rem;
+  padding: 3rem 10rem;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.about-homepage h2 {
+  color: #1382A8;
+  font-family: 'Kavoon';
+  margin-top: 1rem;
+}
+
+.about-homepage p {
+  margin-left: 2rem;
+}
+
+/* --- Responsividade da Home --- */
+@media (max-width: 768px) {
+  .about-homepage {
+    padding: 2rem;
+    font-size: 1.2rem;
+  }
+
+  .about-homepage p {
+    margin-left: 0;
+  }
+
+  .banner-homepage {
+    padding: 2rem 1rem;
+    height: auto;
+    font-size: 1.2rem;
+  }
+
+  .banner-homepage h1 {
+    font-size: 2rem;
+  }
+
+  .banner-homepage button {
+    font-size: 1.1rem;
+    padding: 0.8rem 2rem;
+  }
+}

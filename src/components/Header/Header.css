@@ -1,0 +1,177 @@
+/* Estilos do Header */
+.header {
+  background: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 0 2rem;
+  width: 100%;
+  position: relative;
+  z-index: 10;
+}
+
+/* CONTAINER PRINCIPAL */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* LOGO */
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-family: 'Kavoon';
+  color: #0A2B3E;
+  font-size: 1.4rem;
+  flex-shrink: 0;
+}
+
+.header-logo img {
+  width: 6rem;
+  height: auto;
+  transition: width 0.3s ease;
+}
+
+/* TOGGLE */
+.menu-toggle {
+  font-size: 2rem;
+  cursor: pointer;
+  display: none;
+  margin-left: auto;
+  color: #1382A8;
+  padding: 0.5rem 1rem;
+}
+
+/* NAVEGAÇÃO */
+.nav {
+  display: flex;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s ease;
+  font: 500 1.3rem 'Joan';
+  padding: 10px;
+}
+
+.nav a:hover {
+  color: #627D1B;
+}
+
+.nav .button {
+  background-color: #1382A8;
+  border-radius: 10px;
+  color: white;
+  padding: 0.6rem 1.2rem;
+}
+
+.nav .button:hover {
+  background-color: #627D1B;
+  color: white;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* --- Responsividade do Header --- */
+@media (max-width: 1024px) {
+  .header-container {
+    height: 7rem;
+  }
+
+  .header-logo img {
+    width: 5rem;
+  }
+  
+  .header-logo h2 {
+    font-size: 1.7rem;
+  }
+
+  .nav ul {
+    gap: 1.2rem;
+  }
+
+  .nav a {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-container {
+    flex-wrap: nowrap;
+    height: auto;
+  }
+
+  .menu-toggle {
+    display: block;
+    margin-right: 0.5rem;
+  }
+
+  .nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: white;
+    display: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+
+  .nav.open {
+    display: block;
+  }
+
+  .nav ul {
+    flex-direction: column;
+    gap: 0;
+    padding: 1rem 0;
+  }
+
+  .nav ul li {
+    width: 100%;
+    text-align: left;
+  }
+
+  .nav a {
+    display: block;
+    width: 100%;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+  }
+
+  .header-logo img {
+    width: 4.5rem;
+    margin: 0.5rem 0;
+  }
+
+  .header-logo h2 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-logo img {
+    width: 3.2rem;
+    margin: 1rem 0;
+  }
+
+  .header-logo h2 {
+    font-size: 1.3rem;
+  }
+
+  .nav a {
+    font-size: 0.95rem;
+  }
+}

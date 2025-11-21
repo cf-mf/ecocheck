@@ -1,0 +1,28 @@
+.plans-section {
+  text-align: center;
+  padding: 3.4rem 2rem;
+  background-color: #0A2B3E;
+}
+
+.plans-section h2 {
+  font-family: 'Kavoon';
+  color: white;
+  font-weight: 100;
+  font-size: 2rem;
+  margin-bottom: 3.6rem;
+}
+
+.plans-container {
+  display: flex;
+  gap: 2.9rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* --- Responsividade --- */
+@media (max-width: 768px) {
+  .plans-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
